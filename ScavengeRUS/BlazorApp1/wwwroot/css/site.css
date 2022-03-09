@@ -182,6 +182,14 @@ app {
         -webkit-overflow-scrolling: touch;
         overflow-x: hidden;
     }
+
 }
 
+/*------------------------------------------------------------
+        Game-CSS
+*/
+
+.testbox {
+    border: 2px solid black;
+}
 
