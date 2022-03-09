@@ -176,6 +176,12 @@ app {
         left: 50%;
         transform: translateX(-50%);
     }
+    .list-group {
+        max-height: 150px;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+    }
 }
 
 
