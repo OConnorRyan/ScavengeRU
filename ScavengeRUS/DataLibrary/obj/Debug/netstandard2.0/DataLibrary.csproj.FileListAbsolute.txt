@@ -1,0 +1,9 @@
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csprojAssemblyReference.cache
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb

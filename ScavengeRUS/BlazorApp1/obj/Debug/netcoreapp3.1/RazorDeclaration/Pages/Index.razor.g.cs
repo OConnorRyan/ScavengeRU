@@ -98,18 +98,21 @@ using Microsoft.Extensions.Logging;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\Index.razor"
+#line 29 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\Index.razor"
        
     private UserModel userModel = new UserModel();
 
     private void HandleValidSubmit()
     {
         Logger.LogInformation("HandleValidSubmit called");
+        NavigationManager.NavigateTo("/game");
     }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILogger<Index> Logger { get; set; }
     }
 }

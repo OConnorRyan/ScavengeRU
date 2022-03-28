@@ -75,6 +75,27 @@ using BlazorApp1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\About.razor"
+using DataLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\About.razor"
+using BlazorApp1.Model;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\About.razor"
+using Microsoft.Extensions.Configuration;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/about")]
     public partial class About : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,6 +104,22 @@ using BlazorApp1.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 23 "C:\Users\pinyskenis\Documents\GitHub\ScavengeRU\ScavengeRUS\BlazorApp1\Pages\About.razor"
+       
+
+    List<PlayerModel> player;
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "SELECT * FROM Player";
+        player = await _data.LoadData<PlayerModel, dynamic>(sql,new { }, _config.GetConnectionString("default"));
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IConfiguration _config { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IDataAccess _data { get; set; }
     }
 }
 #pragma warning restore 1591
